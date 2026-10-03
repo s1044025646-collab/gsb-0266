@@ -1,0 +1,23 @@
+{
+  "name": "c3-mro-service",
+  "version": "1.0.0",
+  "description": "C3 多重继承线性化与方法查找解释后端",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/*.test.js",
+    "start": "npm run build && node dist/src/main.js serve",
+    "cli": "node dist/src/main.js",
+    "demo": "node demo/demo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}

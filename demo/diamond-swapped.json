@@ -1,0 +1,8 @@
+{
+  "classes": [
+    { "name": "O", "parents": [], "methods": ["who"] },
+    { "name": "X", "parents": ["O"], "methods": ["who", "save"] },
+    { "name": "Y", "parents": ["O"], "methods": ["who", "load"] },
+    { "name": "A", "parents": ["Y", "X"], "methods": ["who"] }
+  ]
+}

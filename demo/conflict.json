@@ -1,0 +1,9 @@
+{
+  "classes": [
+    { "name": "X", "parents": [], "methods": [] },
+    { "name": "Y", "parents": [], "methods": [] },
+    { "name": "A", "parents": ["X", "Y"], "methods": [] },
+    { "name": "B", "parents": ["Y", "X"], "methods": [] },
+    { "name": "Z", "parents": ["A", "B"], "methods": [] }
+  ]
+}
