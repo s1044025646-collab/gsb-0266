@@ -1,0 +1,24 @@
+{
+  "name": "c3-linearizer",
+  "version": "1.0.0",
+  "description": "离线 C3 多重继承线性化与方法查找解释后端（API + CLI）",
+  "type": "module",
+  "bin": {
+    "c3tool": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/cli.js serve",
+    "test": "node --import tsx --test --test-reporter=spec test/*.test.ts",
+    "demo": "node --import tsx src/demo.ts",
+    "dev": "node --import tsx src/cli.ts serve"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

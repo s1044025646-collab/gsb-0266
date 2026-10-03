@@ -1,0 +1,5 @@
+# 方法遮蔽演示
+O: ping
+X(O): ping
+Y(O)
+G(X, Y)
